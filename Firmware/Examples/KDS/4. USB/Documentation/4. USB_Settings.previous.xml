@@ -671,10 +671,218 @@ PE_DEBUGHALT();
       <DATA_BUFF_SIZE v="64" />
       <group name="Initialization">
         <Init_USB_Function v="USB0_Init" />
-        <boolgroup name="Inherited USB Init" v="Disabled" />
+        <boolgroup name="Inherited USB Init" v="Enabled">
+          <inhrbean type="Init_USB_OTG">
+            <Enabled v="Y" />
+            <Template v="Init_USB_OTG_VAR0" />
+            <Properties>
+              <Component_name v="USB0" />
+              <Device v="USB0" />
+              <group name="Settings">
+                <Clock_gate v="Enabled" />
+                <group name="Clock settings">
+                  <group name="Clock divider">
+                    <Clock_divider_source v="PLL/FLL clock" />
+                    <Clock_divider_input_frequency v="120 MHz" />
+                    <Clock_divider_fraction v="multiply by 2" />
+                    <Clock_divider_divisor v="divide by 5" />
+                  </group>
+                  <Module_clock_source v="Clock divider output" />
+                  <Module_clock_frequency v="48 MHz" />
+                </group>
+                <group name="Pull-up/pull-down settings">
+                  <Weak_pulldowns v="Enabled" />
+                  <Pull_up_pull_down_control v="Mode dependent" />
+                  <D__pull_up v="Disabled" />
+                  <D__pull_down v="Disabled" />
+                  <D__pull_down v="Disabled" />
+                  <D__pull_up_for_non_OTG_mode v="Disabled" />
+                </group>
+                <group name="Endpoints">
+                  <group name="EP0">
+                    <Direct_low_speed v="Disabled" />
+                    <Retry v="Enabled" />
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP1">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP2">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP3">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP4">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP5">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP6">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP7">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP8">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP9">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP10">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP11">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP12">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP13">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP14">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                  <group name="EP15">
+                    <Setup_transfers v="Enabled" />
+                    <Handshake v="Disabled" />
+                    <Rx_transfer v="Disabled" />
+                    <Tx_transfer v="Disabled" />
+                    <Force_stall v="Disabled" />
+                  </group>
+                </group>
+                <group name="Buffer descriptor table">
+                  <External_object_declaration v="extern uint8_t g_Mem[];" />
+                  <Address v="((uint32_t)&amp;amp;g_Mem[0])" />
+                </group>
+                <SOF_threshold v="0" />
+              </group>
+              <group name="Pins">
+                <boolgroup name="Alternate clock source" v="Disabled" />
+                <boolgroup name="SOF output" v="Disabled" />
+                <boolgroup name="Data plus" v="Enabled">
+                  <Pin v="USB0_DP" />
+                </boolgroup>
+                <boolgroup name="Data minus" v="Enabled">
+                  <Pin v="USB0_DM" />
+                </boolgroup>
+              </group>
+              <group name="Interrupts">
+                <group name="USB">
+                  <Interrupt v="INT_USB0" />
+                  <Interrupt_request v="Disabled" />
+                  <Interrupt_priority v="0 (Highest)" />
+                  <ISR_Name v="USB_ISR" />
+                  <Stall v="Enabled" />
+                  <Attach v="Enabled" />
+                  <Resume v="Enabled" />
+                  <Sleep v="Enabled" />
+                  <Token_OK v="Enabled" />
+                  <Start_of_frame v="Enabled" />
+                  <Error_interrupt v="Enabled" />
+                  <USB_reset v="Enabled" />
+                  <Asynchronous_Resume_interrupt v="Enabled" />
+                  <group name="Error interrupts">
+                    <Bit_stuff_error v="Disabled" />
+                    <DMA_error v="Disabled" />
+                    <Bus_turnaround_timeout v="Disabled" />
+                    <Data_length_error v="Disabled" />
+                    <CRC16_error v="Disabled" />
+                    <CRC5_or_EOF v="Disabled" />
+                    <PID_error v="Disabled" />
+                  </group>
+                  <group name="OTG interrupts ">
+                    <ID_pin_changed v="Disabled" />
+                    <_1_ms_interrupt v="Disabled" />
+                    <Line_stage_change v="Disabled" />
+                    <Session_valid v="Disabled" />
+                    <_B__session_end v="Disabled" />
+                    <_A__bus_valid v="Disabled" />
+                  </group>
+                </group>
+              </group>
+              <group name="Initialization">
+                <enumgroup name="Mode" v="Device">
+                  <EmptySection_DummyValue />
+                </enumgroup>
+                <USB_transceiver_suspend_state v="Enabled" />
+                <Call_Init_method v="yes" />
+              </group>
+            </Properties>
+            <Methods>
+              <Init v="generate code" />
+            </Methods>
+            <Events>
+              <EmptySection_DummyValue />
+            </Events>
+          </inhrbean>
+        </boolgroup>
         <group name="Initialization">
-          <Use_USB_Stack_Inititalization v="no" />
-          <Call_Init_Method v="no" />
+          <Use_USB_Stack_Inititalization v="yes" />
+          <Call_Init_Method v="yes" />
         </group>
       </group>
     </Properties>

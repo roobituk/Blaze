@@ -622,10 +622,7 @@ PE_DEBUGHALT();
               </Events>
             </inhrbean>
             <group name="SendDataBlock">
-              <boolgroup name="Use Timeout" v="Enabled">
-                <Timeout v="TMOUT1" />
-                <App_Task_Timeout__ms_ v="20" />
-              </boolgroup>
+              <boolgroup name="Use Timeout" v="Disabled" />
               <Waiting_time__ms_ v="10" />
               <Wait v="WAIT1" />
             </group>

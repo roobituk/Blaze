@@ -497,7 +497,7 @@
     </GenFiles>
     <SignalListFile>Documentation\4. USB_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>67</ProjectModificationStamp>
+    <ProjectModificationStamp>68</ProjectModificationStamp>
   </Options>
   <CpuID_4>
     <Generated>true</Generated>
@@ -924,7 +924,7 @@
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
     <HeaderAge>1233950369</HeaderAge>
-    <CodeAge>1233950369</CodeAge>
+    <CodeAge>1233953743</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>16</GenNumMethods>
     <SelectSlave>true</SelectSlave>
@@ -2496,8 +2496,8 @@
       <GenComponentVersion>01.081</GenComponentVersion>
       <GenDriverVersion>01.00</GenDriverVersion>
       <GenEventModule>Events</GenEventModule>
-      <HeaderAge>1233950391</HeaderAge>
-      <CodeAge>1233950391</CodeAge>
+      <HeaderAge>1233953743</HeaderAge>
+      <CodeAge>1233953743</CodeAge>
       <AsemblAge>-1</AsemblAge>
       <GenNumMethods>21</GenNumMethods>
       <ClearRxBuffer>true</ClearRxBuffer>
@@ -2533,323 +2533,323 @@
         <MethodPos0>GetFreeInTxBuf</MethodPos0>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>125</LineBeg>
-        <LineEnd>138</LineEnd>
+        <LineBeg>122</LineBeg>
+        <LineEnd>135</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos1>RecvChar</MethodPos1>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>139</LineBeg>
-        <LineEnd>155</LineEnd>
+        <LineBeg>136</LineBeg>
+        <LineEnd>152</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos2>SendChar</MethodPos2>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>156</LineBeg>
-        <LineEnd>174</LineEnd>
+        <LineBeg>153</LineBeg>
+        <LineEnd>171</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos3>GetCharsInTxBuf</MethodPos3>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>175</LineBeg>
-        <LineEnd>187</LineEnd>
+        <LineBeg>172</LineBeg>
+        <LineEnd>184</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos4>GetCharsInRxBuf</MethodPos4>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>188</LineBeg>
-        <LineEnd>199</LineEnd>
+        <LineBeg>185</LineBeg>
+        <LineEnd>196</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos5>Init</MethodPos5>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>200</LineBeg>
-        <LineEnd>211</LineEnd>
+        <LineBeg>197</LineBeg>
+        <LineEnd>208</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos6>App_Task</MethodPos6>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>212</LineBeg>
-        <LineEnd>235</LineEnd>
+        <LineBeg>209</LineBeg>
+        <LineEnd>232</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos7>SendString</MethodPos7>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>236</LineBeg>
-        <LineEnd>253</LineEnd>
+        <LineBeg>233</LineBeg>
+        <LineEnd>250</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos8>GetChar</MethodPos8>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>254</LineBeg>
-        <LineEnd>272</LineEnd>
+        <LineBeg>251</LineBeg>
+        <LineEnd>269</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos9>PutBufferChecked</MethodPos9>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>273</LineBeg>
-        <LineEnd>290</LineEnd>
+        <LineBeg>270</LineBeg>
+        <LineEnd>287</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos10>App_Callback</MethodPos10>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>291</LineBeg>
-        <LineEnd>305</LineEnd>
+        <LineBeg>288</LineBeg>
+        <LineEnd>302</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos11>Notify_Callback</MethodPos11>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>306</LineBeg>
-        <LineEnd>320</LineEnd>
+        <LineBeg>303</LineBeg>
+        <LineEnd>317</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos12>ClearRxBuffer</MethodPos12>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>321</LineBeg>
-        <LineEnd>332</LineEnd>
+        <LineBeg>318</LineBeg>
+        <LineEnd>329</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos13>ClearTxBuffer</MethodPos13>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>333</LineBeg>
-        <LineEnd>344</LineEnd>
+        <LineBeg>330</LineBeg>
+        <LineEnd>341</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos14>RunUsbEngine</MethodPos14>
         <MethodType>internal_method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>345</LineBeg>
-        <LineEnd>355</LineEnd>
+        <LineBeg>342</LineBeg>
+        <LineEnd>352</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos15>SendBlock</MethodPos15>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>356</LineBeg>
-        <LineEnd>374</LineEnd>
+        <LineBeg>353</LineBeg>
+        <LineEnd>371</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos16>SendDataBlock</MethodPos16>
         <MethodType>internal_method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>375</LineBeg>
-        <LineEnd>385</LineEnd>
+        <LineBeg>372</LineBeg>
+        <LineEnd>382</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos17>Deinit</MethodPos17>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>386</LineBeg>
-        <LineEnd>397</LineEnd>
+        <LineBeg>383</LineBeg>
+        <LineEnd>394</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos18>StdIOKeyPressed</MethodPos18>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>398</LineBeg>
-        <LineEnd>410</LineEnd>
+        <LineBeg>395</LineBeg>
+        <LineEnd>407</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos19>StdIOReadChar</MethodPos19>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>411</LineBeg>
-        <LineEnd>425</LineEnd>
+        <LineBeg>408</LineBeg>
+        <LineEnd>422</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos20>StdIOSendChar</MethodPos20>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>426</LineBeg>
-        <LineEnd>438</LineEnd>
+        <LineBeg>423</LineBeg>
+        <LineEnd>435</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos21>ApplicationStarted</MethodPos21>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>439</LineBeg>
-        <LineEnd>450</LineEnd>
+        <LineBeg>436</LineBeg>
+        <LineEnd>447</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos22>TransactionsStarted</MethodPos22>
         <MethodType>method</MethodType>
         <ModuleType>Header</ModuleType>
-        <LineBeg>451</LineBeg>
-        <LineEnd>462</LineEnd>
+        <LineBeg>448</LineBeg>
+        <LineEnd>459</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos23>GetFreeInTxBuf</MethodPos23>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>107</LineBeg>
-        <LineEnd>124</LineEnd>
+        <LineBeg>105</LineBeg>
+        <LineEnd>122</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos24>GetCharsInTxBuf</MethodPos24>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>125</LineBeg>
-        <LineEnd>142</LineEnd>
+        <LineBeg>123</LineBeg>
+        <LineEnd>140</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos25>GetCharsInRxBuf</MethodPos25>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>143</LineBeg>
-        <LineEnd>161</LineEnd>
+        <LineBeg>141</LineBeg>
+        <LineEnd>159</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos26>GetChar</MethodPos26>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>162</LineBeg>
-        <LineEnd>183</LineEnd>
+        <LineBeg>160</LineBeg>
+        <LineEnd>181</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos27>RecvChar</MethodPos27>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>184</LineBeg>
-        <LineEnd>206</LineEnd>
+        <LineBeg>182</LineBeg>
+        <LineEnd>204</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos28>SendChar</MethodPos28>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>207</LineBeg>
-        <LineEnd>241</LineEnd>
+        <LineBeg>205</LineBeg>
+        <LineEnd>239</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos29>SendBlock</MethodPos29>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>242</LineBeg>
-        <LineEnd>271</LineEnd>
+        <LineBeg>240</LineBeg>
+        <LineEnd>269</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos30>SendString</MethodPos30>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>272</LineBeg>
-        <LineEnd>300</LineEnd>
+        <LineBeg>270</LineBeg>
+        <LineEnd>298</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos31>App_Callback</MethodPos31>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>301</LineBeg>
-        <LineEnd>359</LineEnd>
+        <LineBeg>299</LineBeg>
+        <LineEnd>357</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos32>Notify_Callback</MethodPos32>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>360</LineBeg>
-        <LineEnd>388</LineEnd>
+        <LineBeg>358</LineBeg>
+        <LineEnd>386</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos33>RunUsbEngine</MethodPos33>
         <MethodType>internal_method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>389</LineBeg>
-        <LineEnd>402</LineEnd>
+        <LineBeg>387</LineBeg>
+        <LineEnd>400</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos34>SendDataBlock</MethodPos34>
         <MethodType>internal_method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>403</LineBeg>
-        <LineEnd>437</LineEnd>
+        <LineBeg>401</LineBeg>
+        <LineEnd>428</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos35>App_Task</MethodPos35>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>438</LineBeg>
-        <LineEnd>497</LineEnd>
+        <LineBeg>429</LineBeg>
+        <LineEnd>488</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos36>Deinit</MethodPos36>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>498</LineBeg>
-        <LineEnd>524</LineEnd>
+        <LineBeg>489</LineBeg>
+        <LineEnd>515</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos37>Init</MethodPos37>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>525</LineBeg>
-        <LineEnd>551</LineEnd>
+        <LineBeg>516</LineBeg>
+        <LineEnd>542</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos38>PutBufferChecked</MethodPos38>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>552</LineBeg>
-        <LineEnd>584</LineEnd>
+        <LineBeg>543</LineBeg>
+        <LineEnd>575</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos39>ClearRxBuffer</MethodPos39>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>585</LineBeg>
-        <LineEnd>600</LineEnd>
+        <LineBeg>576</LineBeg>
+        <LineEnd>591</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos40>ClearTxBuffer</MethodPos40>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>601</LineBeg>
-        <LineEnd>616</LineEnd>
+        <LineBeg>592</LineBeg>
+        <LineEnd>607</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos41>StdIOKeyPressed</MethodPos41>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>617</LineBeg>
-        <LineEnd>632</LineEnd>
+        <LineBeg>608</LineBeg>
+        <LineEnd>623</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos42>StdIOReadChar</MethodPos42>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>633</LineBeg>
-        <LineEnd>653</LineEnd>
+        <LineBeg>624</LineBeg>
+        <LineEnd>644</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos43>StdIOSendChar</MethodPos43>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>654</LineBeg>
-        <LineEnd>669</LineEnd>
+        <LineBeg>645</LineBeg>
+        <LineEnd>660</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos44>ApplicationStarted</MethodPos44>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>670</LineBeg>
-        <LineEnd>684</LineEnd>
+        <LineBeg>661</LineBeg>
+        <LineEnd>675</LineEnd>
       </MethodPos>
       <MethodPos>
         <MethodPos45>TransactionsStarted</MethodPos45>
         <MethodType>method</MethodType>
         <ModuleType>Code</ModuleType>
-        <LineBeg>685</LineBeg>
-        <LineEnd>699</LineEnd>
+        <LineBeg>676</LineBeg>
+        <LineEnd>690</LineEnd>
       </MethodPos>
       <GenExtraFilesCount>10</GenExtraFilesCount>
       <ExtraFile0>Documentation\cdc.inf_readme.txt</ExtraFile0>

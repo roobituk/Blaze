@@ -7,7 +7,7 @@
 **     Version     : Component 01.081, Driver 01.00, CPU db: 3.00.000
 **     Repository  : My Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 18:53, # CodeGen: 5
+**     Date/Time   : 2016-12-12, 20:30, # CodeGen: 14
 **     Abstract    :
 **
 **     Settings    :
@@ -31,9 +31,7 @@
 **          Send Buffer                                    : RingBuffer
 **          Receive Buffer                                 : RingBuffer
 **          SendDataBlock                                  : 
-**            Use Timeout                                  : Enabled
-**              Timeout                                    : TMOUT1
-**              App Task Timeout (ms)                      : 20
+**            Use Timeout                                  : Disabled
 **            Waiting time (ms)                            : 10
 **            Wait                                         : WAIT1
 **          Power Options                                  : 
@@ -412,7 +410,6 @@ void CDC1_RunUsbEngine(void)
 */
 uint8_t CDC1_SendDataBlock(uint8_t *data, uint16_t dataSize)
 {
-  TMOUT1_CounterHandle timeout;
   uint8_t res = ERR_OK;
 
   transactionOngoing = TRUE;
@@ -421,18 +418,12 @@ uint8_t CDC1_SendDataBlock(uint8_t *data, uint16_t dataSize)
     return ERR_FAULT;
   }
   /* wait for transaction finish */
-  timeout = TMOUT1_GetCounter(20/TMOUT1_TICK_PERIOD_MS); /* set up timeout counter */
   while(transactionOngoing) { /* wait until transaction is finished */
     /*lint -save -e522 function lacks side-effects */
     CDC1_RunUsbEngine();
     /*lint -restore */
-    if (TMOUT1_CounterExpired(timeout)) {
-      res = ERR_FAILED;
-      break;
-    }
     WAIT1_WaitOSms(10); /* wait some time */
   }
-  TMOUT1_LeaveCounter(timeout); /* return timeout counter */
   return res;
 }
 

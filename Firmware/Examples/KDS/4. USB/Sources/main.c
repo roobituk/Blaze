@@ -305,7 +305,7 @@ static void ClearScreen(void) {
 // ----------------------------------------------------------------------------
 // Init the touch screen
 static void TSI_Init(void) {
-
+/*
 	// Buffer to hold data from the touch controller
 	uint8_t data[1];
 	// Message to send to the touch controller
@@ -316,7 +316,7 @@ static void TSI_Init(void) {
 
 	// Work out the current operating mode
 	uint8_t mode = (data[0] & 0x03);
-
+*/
 	//printf("mode: %d", mode);
 }
 

@@ -79,7 +79,7 @@ void TU1_OnCounterRestart(LDD_TUserData *UserDataPtr)
   /* Write your code here ... */
 	g_poll = TRUE;
 
-	g_count++;
+	//g_count++;
 }
 
 /* END Events */

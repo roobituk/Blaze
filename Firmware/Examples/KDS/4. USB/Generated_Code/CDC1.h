@@ -7,7 +7,7 @@
 **     Version     : Component 01.081, Driver 01.00, CPU db: 3.00.000
 **     Repository  : My Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2016-12-12, 18:53, # CodeGen: 5
+**     Date/Time   : 2016-12-12, 20:30, # CodeGen: 14
 **     Abstract    :
 **
 **     Settings    :
@@ -31,9 +31,7 @@
 **          Send Buffer                                    : RingBuffer
 **          Receive Buffer                                 : RingBuffer
 **          SendDataBlock                                  : 
-**            Use Timeout                                  : Enabled
-**              Timeout                                    : TMOUT1
-**              App Task Timeout (ms)                      : 20
+**            Use Timeout                                  : Disabled
 **            Waiting time (ms)                            : 10
 **            Wait                                         : WAIT1
 **          Power Options                                  : 
@@ -91,7 +89,6 @@
 /* Include inherited beans */
 #include "Tx1.h"
 #include "Rx1.h"
-#include "TMOUT1.h"
 #include "WAIT1.h"
 #include <stddef.h> /* for size_t */
 

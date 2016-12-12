@@ -10,10 +10,10 @@ KDS is a integrated development environment for the NXP Kinetis range of microco
 
 To download any of the KDS examples to Blaze:
 
-1) Install the KDS environment
-2) Import the project into KDS by selecting File -> Import -> General -> Existing Projects into Workspace
-3) Select the folder of the project you wish to import
-4) Ensure that the project has a "check" mark next to it on the Import window
-5) Click the "hammer" icon on the main toolbar to build
-6) Locate the "bin" file within the project folder underneath the Debug directory (or Release if you have configured this)
-7) Use the Blaze Updater to load in the "bin" file
+1) Install the KDS environment<br/>
+2) Import the project into KDS by selecting File -> Import -> General -> Existing Projects into Workspace<br/>
+3) Select the folder of the project you wish to import<br/>
+4) Ensure that the project has a "check" mark next to it on the Import window<br/>
+5) Click the "hammer" icon on the main toolbar to build<br/>
+6) Locate the "bin" file within the project folder underneath the Debug directory (or Release if you have configured this)<br/>
+7) Use the Blaze Updater to load in the "bin" file<br/>

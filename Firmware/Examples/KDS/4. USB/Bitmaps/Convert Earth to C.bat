@@ -1,0 +1,1 @@
+pnmtoc -c Earth.ppm > Earth.c

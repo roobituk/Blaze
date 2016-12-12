@@ -1,0 +1,142 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/Static_Code/PDD"</Line>
+        <Line>"${ProjDirPath}/Static_Code/IO_Map"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="4">
+        <Line>"${ProjDirPath}/Static_Code/PDD"</Line>
+        <Line>"${ProjDirPath}/Static_Code/IO_Map"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/usb_cdc_pstn.c" FileDate="2016-12-12, 18:53:47" FileAge="1481568827199" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/CDC1.c" FileDate="2016-12-12, 18:53:47" FileAge="1481568827223" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/USB0.c" FileDate="2016-12-12, 19:36:49" FileAge="1481571409537" FileType="45637" CompNumb="59" />
+      <File Name="Static_Code/PDD/VREF_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/PDB_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/PORT_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2016-12-12, 18:53:03" FileAge="1481568783671" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/PDD/PIT_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/MCM_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/usb_descriptor.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827215" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/usb_descriptor.c" FileDate="2016-12-12, 18:53:47" FileAge="1481568827211" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/usb_cdc.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827196" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/usb_bdt_kinetis.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058522" FileType="45637" CompNumb="58" />
+      <File Name="Static_Code/PDD/FTFE_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Documentation/4. USB.txt" FileDate="2016-12-12, 18:57:39" FileAge="1481569059228" FileType="3072" />
+      <File Name="Generated_Code/usb_cdc.c" FileDate="2016-12-12, 18:53:47" FileAge="1481568827192" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/PE_LDD.h" FileDate="2016-12-12, 19:36:49" FileAge="1481571409672" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/SysTick_component.txt" FileDate="2016-12-11, 19:12:55" FileAge="1481483575822" FileType="45637" CompNumb="53" />
+      <File Name="Static_Code/PDD/UART_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-12-12, 19:36:49" FileAge="1481571409644" FileType="45637" CompNumb="4" />
+      <File Name="Static_Code/IO_Map/MK22F12.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" CompNumb="4" />
+      <File Name="Static_Code/PDD/I2C_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Sources/Events.h" FileDate="2016-12-12, 19:36:49" FileAge="1481571409723" FileType="131328" />
+      <File Name="Generated_Code/PE_LDD.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783657" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-12-12, 19:36:49" FileAge="1481571409656" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783688" FileType="45637" />
+      <File Name="Static_Code/PDD/RTC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Sources/Events.c" FileDate="2016-12-11, 19:21:25" FileAge="1481484085692" FileType="131328" />
+      <File Name="Static_Code/PDD/MCG_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/usb_framework.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058513" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/TU1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783707" FileType="45637" CompNumb="54" />
+      <File Name="Static_Code/PDD/CRC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/FMC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/usb_framework.c" FileDate="2016-12-12, 18:57:38" FileAge="1481569058510" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/TU1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783705" FileType="45637" CompNumb="54" />
+      <File Name="Generated_Code/types.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058535" FileType="45637" CompNumb="58" />
+      <File Name="Static_Code/PDD/SysTick_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/PDD_Types.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" CompNumb="4" />
+      <File Name="Static_Code/PDD/OSC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/Tx1.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827238" FileType="45637" CompNumb="61" />
+      <File Name="Static_Code/PDD/CAN_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/Tx1.c" FileDate="2016-12-12, 18:53:47" FileAge="1481568827235" FileType="45637" CompNumb="61" />
+      <File Name="Documentation/4. USB_Settings.xml" FileDate="2016-12-12, 19:36:49" FileAge="1481571409933" FileType="3072" />
+      <File Name="Static_Code/PDD/USB_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/usb_devapi.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058516" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783683" FileType="45637" />
+      <File Name="Generated_Code/usb_dci_kinetis.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058528" FileType="45637" CompNumb="58" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2016-12-12, 19:10:40" FileAge="1481569840413" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/CS1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783827" FileType="45637" CompNumb="21" />
+      <File Name="Generated_Code/TMOUT1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783820" FileType="45637" CompNumb="22" />
+      <File Name="Generated_Code/usb_dci_kinetis.c" FileDate="2016-12-12, 18:57:38" FileAge="1481569058525" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783681" FileType="45637" />
+      <File Name="Static_Code/PDD/GPIO_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/CS1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783823" FileType="45637" CompNumb="21" />
+      <File Name="Generated_Code/TMOUT1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783817" FileType="45637" CompNumb="22" />
+      <File Name="Generated_Code/KSDK1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783833" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/derivative.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058533" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/KSDK1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783830" FileType="45637" CompNumb="19" />
+      <File Name="Static_Code/PDD/WDOG_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/CI2C1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783803" FileType="45637" CompNumb="40" />
+      <File Name="Generated_Code/usb_user_config.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827206" FileType="45637" CompNumb="60" />
+      <File Name="Documentation/doxygen/TU1_component.txt" FileDate="2016-12-11, 19:21:07" FileAge="1481484067029" FileType="45637" CompNumb="54" />
+      <File Name="Generated_Code/CI2C1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783797" FileType="45637" CompNumb="40" />
+      <File Name="Static_Code/PDD/USBDCD_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/usb_driver.c" FileDate="2016-12-12, 18:57:38" FileAge="1481569058519" FileType="45637" CompNumb="58" />
+      <File Name="Documentation/cdc.inf_readme.txt" FileDate="2016-12-12, 18:53:47" FileAge="1481568827220" FileType="45637" CompNumb="60" />
+      <File Name="Documentation/doxygen/CI2C1_component.txt" FileDate="2016-12-11, 19:12:55" FileAge="1481483575927" FileType="45637" CompNumb="40" />
+      <File Name="Generated_Code/hidef.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058538" FileType="45637" CompNumb="58" />
+      <File Name="Documentation/4. USB_SIGNALS.txt" FileDate="2016-12-12, 19:36:49" FileAge="1481571409817" FileType="3072" />
+      <File Name="Documentation/cdc.inf" FileDate="2016-12-12, 18:53:47" FileAge="1481568827217" FileType="45637" CompNumb="60" />
+      <File Name="Static_Code/PDD/CMP_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Project_Settings/Startup_Code/startup.c" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="16384" CompNumb="4" />
+      <File Name="Generated_Code/wdt_kinetis.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058541" FileType="45637" CompNumb="58" />
+      <File Name="Static_Code/PDD/SPI_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783685" FileType="45637" />
+      <File Name="Static_Code/PDD/DMAMUX_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/EWM_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/Rx1.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827232" FileType="45637" CompNumb="62" />
+      <File Name="Generated_Code/wdt_kinetis.c" FileDate="2016-12-12, 18:57:38" FileAge="1481569058543" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/usb_dciapi.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058530" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/Rx1.c" FileDate="2016-12-12, 18:53:47" FileAge="1481568827229" FileType="45637" CompNumb="62" />
+      <File Name="Static_Code/PDD/SAI_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/DMA_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Sources/main.h" FileDate="2016-12-11, 20:07:59" FileAge="1481486879705" FileType="128" />
+      <File Name="Documentation/doxygen/4. USB_project.txt" FileDate="2016-12-12, 19:36:49" FileAge="1481571409661" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/WAIT1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783813" FileType="45637" CompNumb="23" />
+      <File Name="Static_Code/PDD/SIM_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Sources/main.c" FileDate="2016-12-12, 19:36:49" FileAge="1481571409638" FileType="128" />
+      <File Name="Documentation/doxygen/USB0_component.txt" FileDate="2016-12-12, 19:36:49" FileAge="1481571409534" FileType="45637" CompNumb="59" />
+      <File Name="Static_Code/PDD/ADC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/WAIT1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783809" FileType="45637" CompNumb="23" />
+      <File Name="Static_Code/PDD/DAC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/FTM_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Static_Code/PDD/SDHC_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/USB_Config.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827209" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/FSL_USB_Stack_Config.h" FileDate="2016-12-12, 19:36:49" FileAge="1481571409634" FileType="45637" CompNumb="58" />
+      <File Name="Static_Code/PDD/LPTMR_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2016-12-12, 19:36:49" FileAge="1481571409701" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2016-12-11, 19:12:55" FileAge="1481483575704" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/GI2C1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783773" FileType="45637" CompNumb="39" />
+      <File Name="Generated_Code/usb_class.h" FileDate="2016-12-12, 18:57:38" FileAge="1481569058506" FileType="45637" CompNumb="58" />
+      <File Name="Static_Code/PDD/CMT_PDD.h" FileDate="2016-08-30, 20:02:00" FileAge="1472583720000" FileType="1048576" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2016-12-11, 19:12:54" FileAge="1481483574822" FileType="16384" CompNumb="4" />
+      <File Name="Generated_Code/GI2C1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783767" FileType="45637" CompNumb="39" />
+      <File Name="Generated_Code/usb_class.c" FileDate="2016-12-12, 18:57:38" FileAge="1481569058497" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/SysTick.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783748" FileType="45637" CompNumb="53" />
+      <File Name="Generated_Code/UTIL1.h" FileDate="2016-12-12, 18:53:03" FileAge="1481568783761" FileType="45637" CompNumb="45" />
+      <File Name="Generated_Code/USB1.h" FileDate="2016-12-12, 19:36:49" FileAge="1481571409596" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/SysTick.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783741" FileType="45637" CompNumb="53" />
+      <File Name="Generated_Code/usb_cdc_pstn.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827203" FileType="45637" CompNumb="60" />
+      <File Name="ProjectInfo.xml" FileDate="2016-12-12, 19:36:50" FileAge="1481571410317" FileType="45637" />
+      <File Name="Generated_Code/UTIL1.c" FileDate="2016-12-12, 18:53:03" FileAge="1481568783755" FileType="45637" CompNumb="45" />
+      <File Name="Generated_Code/USB1.c" FileDate="2016-12-12, 19:36:49" FileAge="1481571409612" FileType="45637" CompNumb="58" />
+      <File Name="Generated_Code/CDC1.h" FileDate="2016-12-12, 18:53:47" FileAge="1481568827226" FileType="45637" CompNumb="60" />
+      <File Name="Generated_Code/USB0.h" FileDate="2016-12-12, 19:36:49" FileAge="1481571409540" FileType="45637" CompNumb="59" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>14</CodeGenReference>
+</CodeGenerationInfo>

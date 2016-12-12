@@ -2,7 +2,7 @@
 Blaze KDS Examples
 =========================
 
-1. Hello World
+#1 Hello World
 
 Displays a simple "hello world" message onto the Blaze display. 
 

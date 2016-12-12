@@ -2,7 +2,7 @@
 Blaze KDS Examples
 =========================
 
-2. Touch Screen
+#2 Touch Screen
 
 Uses the touch screen controller to draw a trail beneath the users finger. 
 

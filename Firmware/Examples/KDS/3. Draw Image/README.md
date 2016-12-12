@@ -2,7 +2,7 @@
 Blaze KDS Examples
 =========================
 
-3. Draw Image
+#3 Draw Image
 
 Draws an imported bitmap image onto the display.
 

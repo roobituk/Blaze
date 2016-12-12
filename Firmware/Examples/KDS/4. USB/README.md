@@ -2,7 +2,7 @@
 Blaze KDS Examples
 =========================
 
-4. USB
+#4 USB
 
 This example allows Blaze to run as a USB virtual serial port.
 
